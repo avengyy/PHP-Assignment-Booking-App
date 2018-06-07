@@ -1,0 +1,115 @@
+a:hover {
+  text-decoration: none;
+}
+
+.open > .dropdown-menu {
+  display: flex;
+  flex-direction: column;
+  left: -65px;
+}
+
+.dropdown-item {
+  padding: 1rem;
+}
+
+a#dropdownMenuButton,
+a.dropdown-item {
+  text-decoration: none;
+}
+
+a.dropdown-item:hover {
+  background-color: var(--color-grey-light-2);
+}
+
+.button-group {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.btn-normal {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1rem 4rem;
+  width: 16rem;
+  display: inline-block;
+  border-radius: 10rem;
+  transition: all 0.2s;
+  position: relative;
+  font-size: $default-font-size;
+
+  // Change for the <button> element
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  }
+
+  &:active,
+  &:focus {
+    outline: none;
+    transform: translateY(-1px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  }
+
+  &--default {
+    background-color: var(--color-grey-dark-3);
+    color: var(--color-grey-light-1) !important;
+  }
+
+  &--brand {
+    background-color: var(--color-primary);
+    color: var(--color-grey-light-1) !important;
+  }
+}
+
+.modal {
+  text-align: center;
+  padding: 0 !important;
+}
+
+.modal-header {
+  display: flex;
+
+  & > img {
+    margin-left: 1rem;
+    margin-right: 2rem;
+  }
+}
+
+.modal-body {
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px; /* Adjusts for spacing */
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+label {
+  font-weight: 500;
+}
+
+.modal-text {
+  text-align: center;
+}
+
+.link-brand {
+  text-decoration: none;
+  color: var(--color-primary);
+  &:hover {
+    text-decoration: inherit;
+    color: var(--color-primary-dark);
+  }
+}
