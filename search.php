@@ -214,7 +214,7 @@
 
           <div class="overview">
             <h1 class="overview__heading">
-              Hotels &mdash; Uniquely picked for your holidays!
+              Search Results
             </h1>
           </div>
 
