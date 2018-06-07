@@ -48,4 +48,4 @@ Extract files in _wamp/www_ directory and and navigate to localhost:(YOUR PORT) 
 
 Template based on [Trillo](https://github.com/jonasschmedtmann/advanced-css-course/tree/master/Trillo/final) (Credits to: [Jonas Schmedtmann](https://github.com/jonasschmedtmann))
 
-Source code is Open Sourced to use under MIT License.
+Source code is Open Sourced to use under GNU General Public License V3.
