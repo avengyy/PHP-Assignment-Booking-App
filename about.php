@@ -45,7 +45,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" type="image/png" href="img/favicon.png">
 
-    <title>RedCloud</title>
+    <title>Tilltro</title>
   </head>
 
   <body>
@@ -59,8 +59,8 @@
 
           <!-- Modal Header -->
           <div class="modal-header">
-            <img src="img/logo.png" alt="redcloud logo" class="logo">
-            <h2 class="modal-title">Log In RedCloud</h2>
+            <img src="img/logo.png" alt="Tilltro logo" class="logo">
+            <h2 class="modal-title">Log In Tilltro</h2>
           </div>
 
           <!-- Modal body (hide when user is logged in to prevent invoke from dev tools) -->
@@ -100,7 +100,7 @@
     <div class="container">
       <header class="header">
         <a href="/">
-          <img src="img/logo.png" alt="redcloud logo" class="logo">
+          <img src="img/logo.png" alt="Tilltro logo" class="logo">
         </a>
 
         <form action="search.php?go" method="POST" class="search">
@@ -194,7 +194,7 @@
           </ul>
 
           <div class="legal">
-            &copy; 2018 by RedCloud. All rights reserved.
+            &copy; 2018 by Tilltro. All rights reserved.
           </div>
         </nav>
 
@@ -215,7 +215,7 @@
 
           <div class="overview">
             <h1 class="overview__heading overview__heading--home">
-              RedCloud &mdash; About Us
+              Tilltro &mdash; About Us
             </h1>
           </div>
 
@@ -225,12 +225,12 @@
                 Our Mission
               </h2>
               <p class="page-about__paragraph">
-                Originally founded in Singapore and launched in 2018, Redcloud started out as a simple website for people to seek affordable
+                Originally founded in Singapore and launched in 2018, Tilltro started out as a simple website for people to seek affordable
                 and exciting tours. We have now grown into a much bigger, more
-                meaningful platform that allows people to discover great places to travel through recommendations from the community. Redcloud
+                meaningful platform that allows people to discover great places to travel through recommendations from the community. Tilltro
                 has been made possible because of the passionate, avid travellers constantly sharing new places to explore as well as a
                 wide network of community around the world putting their heart and souls into offering tours for the travellers registered
-                with us. If you loved travelling and is adventurous by heart, Redcloud would be the best platform out there for your availability!
+                with us. If you loved travelling and is adventurous by heart, Tilltro would be the best platform out there for your availability!
               </p>
             </div>
           </div>

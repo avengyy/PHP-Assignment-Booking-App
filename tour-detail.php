@@ -60,7 +60,7 @@ if (isset($_GET['id'])) {
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" type="image/png" href="img/favicon.png">
 
-    <title>RedCloud &mdash; Tour</title>
+    <title>Tilltro &mdash; Tour</title>
 
   </head>
 
@@ -74,8 +74,8 @@ if (isset($_GET['id'])) {
 
           <!-- Modal Header -->
           <div class="modal-header">
-            <img src="img/logo.png" alt="redcloud logo" class="logo">
-            <h2 class="modal-title">Log In RedCloud</h2>
+            <img src="img/logo.png" alt="Tilltro logo" class="logo">
+            <h2 class="modal-title">Log In Tilltro</h2>
           </div>
 
           <!-- Modal body (hide when user is logged in to prevent invoke from dev tools) -->
@@ -116,7 +116,7 @@ if (isset($_GET['id'])) {
     <div class="container">
       <header class="header">
         <a href="/">
-          <img src="img/logo.png" alt="redcloud logo" class="logo">
+          <img src="img/logo.png" alt="Tilltro logo" class="logo">
         </a>
 
         <form action="search.php?go" method="POST" class="search">
@@ -208,7 +208,7 @@ if (isset($_GET['id'])) {
           </ul>
 
           <div class="legal">
-            &copy; 2018 by RedCloud. All rights reserved.
+            &copy; 2018 by Tilltro. All rights reserved.
           </div>
         </nav>
 

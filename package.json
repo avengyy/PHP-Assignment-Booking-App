@@ -1,7 +1,7 @@
 {
-  "name": "RedCloud",
+  "name": "Tilltro",
   "version": "1.0.0",
-  "description": "RedCloud app",
+  "description": "Tilltro app",
   "main": "index.js",
   "scripts": {
     "start": "gulp serve"

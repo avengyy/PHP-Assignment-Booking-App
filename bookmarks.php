@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" type="image/png" href="img/favicon.png">
 
-    <title>RedCloud &mdash; Bookmarks</title>
+    <title>Tilltro &mdash; Bookmarks</title>
   </head>
 
   <body>
@@ -26,7 +26,7 @@
     <div class="container">
       <header class="header">
         <a href="/">
-          <img src="img/logo.png" alt="redcloud logo" class="logo">
+          <img src="img/logo.png" alt="Tilltro logo" class="logo">
         </a>
 
         <form action="search.php?go" method="POST" class="search">
@@ -107,7 +107,7 @@
           </ul>
 
           <div class="legal">
-            &copy; 2018 by RedCloud. All rights reserved.
+            &copy; 2018 by Tilltro. All rights reserved.
           </div>
         </nav>
 
