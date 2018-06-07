@@ -15,8 +15,6 @@ Written by Zachary Zhou.
 
 ## Tilltro - All-in-one Booking platform
 
----
-
 View [Demo](https://zac.qzonetech.com/)
 
 SCSS Files are watched and compiled into CSS with Gulp
@@ -27,8 +25,6 @@ $ gulp serve
 ```
 
 ## **Read before running!**
-
----
 
 1.  Ensure MySQL is set up properly with required table, columns etc.
 2.  Update constants.php with correct credentials
