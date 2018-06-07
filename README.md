@@ -2,6 +2,8 @@
 
 ## Web Programming in PHP (Academic Assignment)
 
+View [Demo](https://zac.qzonetech.com/)
+
 SASS Files are watched and compiled with Gulp
 cd into directory
 
