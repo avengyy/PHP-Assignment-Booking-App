@@ -69,7 +69,7 @@
 
           <!-- Modal body -->
           <div class="modal-body">
-            <form action="index.php" method="POST">
+            <form action="/" method="POST">
               <div class="form-group">
                 <label for="login_user">Username:</label>
                 <input id="login_user" type="text" name="user" class="form-control">

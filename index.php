@@ -66,7 +66,7 @@
 
           <!-- Modal body -->
           <div class="modal-body">
-            <form action="index.php" method="POST">
+            <form action="/" method="POST">
               <div class="form-group">
                 <label for="user">Username:</label>
                 <input id="user" type="text" name="user" class="form-control">
