@@ -311,6 +311,8 @@ if (isset($_GET['id'])) {
 
           <div class="cta">
             <?php
+            // Check if user is logged in
+            if (isset($_SESSION['userId'])) {
               $type = '';
               $userId = $_SESSION['userId'];
               $sql = "SELECT * FROM tour_login WHERE userId = $userId AND tourId = $id";
@@ -328,6 +330,14 @@ if (isset($_GET['id'])) {
               echo "<a href='$action-tour.php?tourId=$id' class='btn-fancy btn-fancy--brand'>
                       <span class='btn__visible'>$type Bookmark</span>
                     </a>";
+            } else {
+              // Else prompt login if attempted to add bookmark
+              echo "<h2 class='cta__book-now'>Add to bookmarks now!</h2>";
+              echo "<a href='#' data-toggle='modal' data-target='#loginModal' class='btn-fancy btn-fancy--brand'>
+                      <span class='btn__visible'>Add Bookmark</span>
+                    </a>";
+            }
+
             ?>
           </div>
 
