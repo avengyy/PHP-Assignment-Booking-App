@@ -226,9 +226,7 @@
                   if (isset($_GET['go'])) {
                     if (isset($_POST['search'])) {
                       $queryText = $_POST['search'];
-                      $sql = "SELECT * FROM
-                      (SELECT id, title, location, mainImagePath FROM tours UNION SELECT id, title, location, mainImagePath FROM hotels)
-                      AS U WHERE U.title LIKE '%".$queryText."%' OR U.location LIKE '".$queryText."'";
+                      $sql = "SELECT * FROM (SELECT id, title, location, mainImagePath FROM tours UNION SELECT id, title, location, mainImagePath FROM hotels) AS U WHERE U.title LIKE '%".$queryText."%' OR U.location LIKE '%".$queryText."%'";
                       $result = mysqli_query($conn, $sql);
 
                       if (mysqli_num_rows($result) > 0) {
